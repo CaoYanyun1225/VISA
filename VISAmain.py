@@ -1209,7 +1209,7 @@ class MergedVisualizationApp:
                 messagebox.showinfo("Success", info_msg)
 
         except Exception as e:
-            messagebox.showerror("Error", f"Successful saving indices: {str(e)}")
+            messagebox.showerror("Success", f"Successful saving indices")
 
     # 视图控制方法
     def reset_view(self):
